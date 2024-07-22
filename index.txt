@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's Custom Pearls</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            margin: 2rem;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Josh's Custom Pearls</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#materials">Materials</a>
+        <a href="#designs">Finished Designs</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Josh's Custom Pearls</h2>
+        <p>Explore our beautiful collection of custom pearl jewelry.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about Josh's Custom Pearls and our passion for creating unique jewelry pieces.</p>
+    </section>
+    <section id="materials">
+        <h2>Materials</h2>
+        <p>We use the finest materials to create our custom jewelry. Here are some of the pearls we use:</p>
+        <div class="gallery">
+            <img src="path-to-your-image1.jpg" alt="Pearl 1">
+            <img src="path-to-your-image2.jpg" alt="Pearl 2">
+            <img src="path-to-your-image3.jpg" alt="Pearl 3">
+        </div>
+    </section>
+    <section id="designs">
+        <h2>Finished Designs</h2>
+        <p>Check out some of our finished jewelry designs:</p>
+        <div class="gallery">
+            <img src="path-to-your-image4.jpg" alt="Design 1">
+            <img src="path-to-your-image5.jpg" alt="Design 2">
+            <img src="path-to-your-image6.jpg" alt="Design 3">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Josh's Custom Pearls</p>
+        <p><a href="https://www.facebook.com/your-facebook-page" target="_blank">Customer Reviews</a></p>
+    </footer>
+</body>
+</html>
